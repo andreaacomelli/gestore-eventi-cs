@@ -12,3 +12,4 @@
 /Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.pdb
 /Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.genruntimeconfig.cache
 /Users/media/Developer/C#/prova/obj/Debug/net8.0/ref/prova.dll
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.sourcelink.json
