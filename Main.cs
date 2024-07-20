@@ -25,12 +25,12 @@ class Principale
     if (scelta == "prenotare")
     {
       evento.Prenota();
-      evento.ToString();
+      Console.WriteLine(evento.ToString());
     }
     else if (scelta == "disdire")
     {
       evento.Disdici();
-      evento.ToString();
+      Console.WriteLine(evento.ToString());
     }
     else { Console.WriteLine("Inserisci un'opzione valida"); }
   }
