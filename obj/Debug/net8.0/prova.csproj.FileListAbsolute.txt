@@ -1,0 +1,14 @@
+/Users/media/Developer/C#/prova/bin/Debug/net8.0/prova
+/Users/media/Developer/C#/prova/bin/Debug/net8.0/prova.deps.json
+/Users/media/Developer/C#/prova/bin/Debug/net8.0/prova.runtimeconfig.json
+/Users/media/Developer/C#/prova/bin/Debug/net8.0/prova.dll
+/Users/media/Developer/C#/prova/bin/Debug/net8.0/prova.pdb
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.GeneratedMSBuildEditorConfig.editorconfig
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.AssemblyInfoInputs.cache
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.AssemblyInfo.cs
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.csproj.CoreCompileInputs.cache
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.dll
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/refint/prova.dll
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.pdb
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/prova.genruntimeconfig.cache
+/Users/media/Developer/C#/prova/obj/Debug/net8.0/ref/prova.dll
