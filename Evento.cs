@@ -17,26 +17,26 @@ class Evento
     this.postiTot = postiTot;
   }
 
-  public void Prenota()
+  public void Prenota(int postiDaPrenotare)
   {
     int dataComparata = Data.CompareTo(DateTime.Now); //compareTo restituisce valore intero che se > 0 significa che data è futuro ad oggi
 
-    if (postiTot > postiPrenotati && dataComparata > 0)
+    if (postiTot > postiPrenotati && dataComparata > 0 && postiDaPrenotare < PostiTot)
     {
-      postiPrenotati += 1;
+      postiPrenotati += postiDaPrenotare;
     }
-    else { Console.WriteLine("L'evento è gia passato o i posti prenotabili sono esauriti"); }
+    else { Console.WriteLine("Non è possibile registrare la prenotazione, controlla la validità dei dati inseriti"); }
   }
 
-  public void Disdici()
+  public void Disdici(int postiDaDisdire)
   {
     int dataComparata = Data.CompareTo(DateTime.Now); //compareTo restituisce valore intero che se > 0 significa che data è futuro ad oggi
 
-    if (PostiPrenotati == 0 && dataComparata > 0)
+    if (PostiPrenotati == 0 && dataComparata > 0 && postiDaDisdire < PostiPrenotati && postiDaDisdire < PostiTot)
     {
-      PostiPrenotati -= 1;
+      PostiPrenotati -= postiDaDisdire;
     }
-    else { Console.WriteLine("L'evento è gia passato o i posti prenotabili sono esauriti"); }
+    else { Console.WriteLine("Non è possibile disdire la prenotazione, controlla la validità dei dati inseriti"); }
   }
 
   public override string ToString()

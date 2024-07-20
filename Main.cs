@@ -25,16 +25,21 @@ class Principale
 
       if (scelta == "prenotare")
       {
-        evento.Prenota();
+        Console.WriteLine("Quanti posti vuoi prenotare");
+        int postiDaPrenotare = int.Parse(Console.ReadLine());
+
+        evento.Prenota(postiDaPrenotare);
         Console.WriteLine(evento.ToString());
       }
       else if (scelta == "disdire")
       {
-        evento.Disdici();
+        Console.WriteLine("Quanti posti vuoi prenotare");
+        int postiDaDisdire = int.Parse(Console.ReadLine());
+
+        evento.Disdici(postiDaDisdire);
         Console.WriteLine(evento.ToString());
       }
       else { Console.WriteLine("Inserisci un'opzione valida"); }
-
     }
     catch (ArgumentNullException e)
     {
@@ -48,6 +53,5 @@ class Principale
     {
       Console.WriteLine("Si è verificato un errore: " + e.Message);
     }
-
   }
 }
